@@ -13,12 +13,14 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import {MatIconModule} from '@angular/material/icon';
 
-import {MatButtonModule} from '@angular/material/button'; 
+import {MatButtonModule} from '@angular/material/button';
+import { HomeComponent } from './components/home/home.component'; 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    HomeComponent,
     
   ],
   imports: [
